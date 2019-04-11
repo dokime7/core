@@ -1019,7 +1019,7 @@ Changelog
     dans les scénarios (attention il faudra peut-être toutes les
     reconfigurer suite à la mise à jour)
 
--   Possibilité de désactiver un bloc dans un scénario
+-   Posibilidad de desactivar un bloque en un escenario.
 
 -   Ajout pour les développeurs d’un système d’aide tooltips. Il faut
     sur un label mettre la classe « help » et mettre un attribut
@@ -1049,6 +1049,6 @@ Changelog
     (il faut connecter Jeedom sur le réseau, puis aller sur le market et
     cliquer sur « Mes Jeedoms » dans votre profil)
 
--   Ajout sur la page des scénarios d’un testeur d’expression
+-   Adición a la página de escenarios de un probador de expresiones
 
--   Revue du système de partage de scénario
+-   Revisión del sistema de intercambio de escenarios.

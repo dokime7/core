@@ -92,7 +92,7 @@ notre scénario :
 -   **Nom à afficher** : Le nom utilisé pour son affichage.
 
 -   **Groupe** : Permet d’organiser les scénarios, en les classant dans
-    des groupes.
+    de los grupos.
 
 -   **Actif** : Permet d’activer le scénario.
 
@@ -114,7 +114,7 @@ notre scénario :
     dans la timeline.
 
 -   **Description** : Permet d’écrire un petit texte pour décrire
-    votre scénario.
+    tu escenario.
 
 -   **Mode du scénario** : Le scénario peut être programmé, déclenché ou
     les deux à la fois. Vous aurez ensuite le choix d’indiquer le(s)
@@ -674,7 +674,7 @@ En plus des commandes domotiques, vous avez accès aux actions suivantes :
     d’accents et pas de caractères spéciaux). On récupère le tag dans le
     scénario cible avec la fonction tag(montag). La commande "Remise à zéro des SI" permet de remettre à zéro le status des "SI" (ce status est utilisé pour la non répétition des actions d'un "SI" si on passe pour la 2ème fois consécutive dedans)
 
--   **Stop** (stop) : Arrête le scénario.
+-   **Stop** (stop): Detiene el escenario.
 
 -   **Attendre** (wait) : Attend jusqu’à ce que la condition soit valide
     (maximum 2h), le timeout est en seconde(s).

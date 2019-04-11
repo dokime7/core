@@ -203,27 +203,20 @@ l’historique des modifications, un bouton "Documentation" qui renvoie
 vers la documentation du plugin. Ensuite vous avez la langue disponible
 et les diverses informations sur la date de la dernière version stable.
 
-> **Important**
->
-> Il n’est vraiment pas recommandé de mettre un plugin beta sur un
-> Jeedom non beta, beaucoup de soucis de fonctionnement peuvent en
-> résulter.
+> **Importante**>>
+ No es recomendable poner un plugin beta en
+>> Jeedom no beta, muchos problemas operativos pueden aparecer
 
-> **Important**
+>> **Importante**
 >
-> Certains plugins sont payants, dans ce cas la fiche du plugin vous
-> proposera de l’acheter. Une fois cela fait, il faut attendre une
-> dizaine de minutes (temps de validation du paiement), puis retourner
-> sur la fiche du plugin pour l’installer normalement.
+> Algunos plugins son de pago, en este caso será indicado en la pagina de presentación del plugin que os propondrá comprarlo.
+>> Una vez hecho esto, tienes que esperar mas o menos diez minutos (tiempo de validación del pago), luego tienes que regresar en  la pagina de presentación del plugin para instalarlo normalmente.
 
-> **Tip**
->
-> Vous pouvez aussi ajouter un plugin à Jeedom à partir d’un fichier ou
-> depuis un dépôt Github. Pour cela, il faut, dans la configuration de
-> Jeedom, activer la fonction adéquate dans la partie "Mises à jour et
-> fichiers". Il sera ensuite possible, en mettant la souris tout à
-> gauche, et en faisant apparaître le menu de la page plugin, de cliquer
-> sur "Ajout depuis une autre source". Vous pourrez ensuite choisir la
-> source "Fichier". Attention, dans le cas de l’ajout par un fichier
-> zip, le nom du zip doit être le même que l’ID du plugin et dès
-> l’ouverture du ZIP un dossier plugin\_info doit être présent.
+> **Consejo**
+>>
+> También puedes agregar un plugin a Jeedom desde un archivo o
+> desde un repositorio Github. Para ello, es necesario, en la configuración de
+> Jeedom, activar la función apropiada en la sección "Actualizaciones y
+> archivos". Entonces, poniendo el ratón
+> a la izquierda y mostrando el menú de la página plugin, de hacer un clic
+> en "Agregar desde otra fuente". A continuación, puedes elegir la > fuente "Archivo". Atención, si agregas un archivo zip, el nombre de este zip debe ser el mismo que el ID del plugin y desde >  la apertura del ZIP en una carpeta plugin\_info debe ser presente.
