@@ -15,7 +15,7 @@ Changelog
 3.3.16
 
 -   Possibilité de supprimer une variable.
--   Ajout d'un affichage 3D (beta)
+-   Añadiendo una vista 3D (beta)
 -   Refonte du système de backup cloud (backup incrémental et chiffré).
 -   Ajout d'un système de prise de note intégré (dans Analyse -> Note).
 -   Ajout de la notion de tag sur les équipements (se trouve dans la configuration avancée de l'équipement).
@@ -31,7 +31,7 @@ Changelog
 -   Possibilité d'ajouter des images en fond sur les objets
 -   L'information de mise à jour disponible est maintenant masquée aux utilisateurs non admin
 -   Amélioration du support des () dans le calcul d'expressions
--   Possibilité d'éditer les scénarios en mode text/json
+-   Posibilidad de editar los escenarios en modo text/json
 -   Ajout sur la page santé d'une vérification de l'espace libre pour le tmp Jeedom
 -   Possibilitée d'ajouter des options dans les rapports
 -   Ajout d'un heartbeat par plugin et de redemarrage automatique de démon en cas de soucis
@@ -85,7 +85,7 @@ Changelog
 
 - Corrección de errores
 - Correction d'un bug sur les icônes de l'éditeur de fichier et sur le testeur d'expression
-- Correction de bugs sur les listenners
+- Corrección de errores en los listenners
 - Ajout d'une alerte si un plugin bloque les crons
 - Correction d'un bug dans le système de monitoring cloud si la version de l'agent est inférieure à 3.X.X
 
@@ -95,12 +95,12 @@ Changelog
 - Ajout d'une option dans l'administration de Jeedom pour préciser la plage d'ip local (utile dans les installations type docker)
 - Correction d'un bug sur le calcul d'utilisation des variables
 - Ajout d'un indicateur sur la page santé donnant le nombre de processus tué par manque de mémoire (indique globalement que le jeedom est trop chargé)
-- Amélioration de l'éditeur de fichier
+- Editor de archivos mejorado
 
 3.2.7
 
 - Correction de bugs
-- Mise à jour de la docs
+- Actualización de los documentos.
 - Possibilité d'utiliser les tags dans les conditions des blocs "A" et "DANS"
 - Correction du bugs des catégories market pour les widgets/scripts/scénarios...
 
@@ -152,7 +152,7 @@ Changelog
 -   Possibilité d’interdire une commande dans les interactions
     automático
 
--   Amélioration des interactions automatique
+-   Interacciones automáticas mejoradas
 
 -   Correction de bug sur la gestion des synonyme des interactions
 
@@ -368,7 +368,7 @@ Changelog
 
 3.0
 
--   Suppression du mode esclave
+-   Eliminando el modo esclavo
 
 -   Possibilité de déclencher un scénario sur un changement d’une
     variable
@@ -402,7 +402,7 @@ Changelog
     texto
 
 -   Changement des bootstraps slider en slider (correction du bug du
-    double événement des sliders)
+    doble evento en los sliders)
 
 -   Sauvegarde automatique des vues lors du clic sur le bouton "voir le
     resultado"
@@ -449,7 +449,7 @@ Changelog
 
     -   Certains types de widgets peuvent maintenant être dupliqués
 
-    -   Possibilité de verrouiller un élément
+    -   Posibilidad de bloquear un elemento
 
 -   Les plugins peuvent maintenant utiliser une clef api qui leur est
     propio
@@ -564,10 +564,10 @@ Changelog
     jour dynamiquement
 
 -   Possibilité d’exporter une vue en PDF, PNG, SVG ou JPEG avec la
-    commande "report" dans un scénario
+    comando "report" en un escenario
 
 -   Possibilité d’exporter un design en PDF, PNG, SVG ou JPEG avec la
-    commande "report" dans un scénario
+    comando "report" en un escenario
 
 -   Possibilité d’exporter un panel d’un plugin en PDF, PNG, SVG ou JPEG
     avec la commande "report" dans un scénario
@@ -639,11 +639,11 @@ Changelog
 -   Ajout dans les scénarios d’un bouton de choix d’équipement sur les
     commandes de type slider
 
--   Mise à jour de bootstrap en 2.3.7
+-   Actualización de bootstrap en 2.3.7.
 
 -   Ajout de la notion de résumé domotique (permet de connaitre d’un
     seul coup le nombre de lumières à ON, les porte ouvertes, les
-    volets, les fenêtres, la puissance, les détections de mouvement…​).
+    persianas, las ventanas, la potencia, las detecciones de movimiento ...).
     Tout cela se configure sur la page de gestion des objets
 
 -   Ajout de pre et post commande sur une commande. Permet de déclencher
@@ -651,7 +651,7 @@ Changelog
     permettre de synchroniser des équipements pour, par exemple, que 2
     lumières s’allument toujours ensemble avec la même intensité.
 
--   Optimisation des listenner
+-   Optimización de los listenner
 
 -   Ajout de modal pour afficher les informations brutes (attribut de
     l’objet en base) d’un équipement ou d’une commande
@@ -670,7 +670,7 @@ Changelog
     área gráfica)
 
 -   Correction des checkbox historiser, visible et inverser dans le
-    tableau des commandes
+    tablero de comandos
 
 -   Correction d’un soucis sur la traduction des javascripts
 
@@ -688,7 +688,7 @@ Changelog
     del market
 
 -   Correction d’un bug qui pouvait amener à une duplication des courbes
-    sur la page d’historique
+    en la página del historial
 
 -   Correction d’un bug sur la valeur de timeout des scénarios
 
@@ -724,7 +724,7 @@ Changelog
 
 -   Correction d’un bug sur l’accès au market (timeout)
 
--   Correction d’un bug sur l’ouverture des tickets
+-   Corrección de un error al abrir boletos.
 
 -   Correction d’un bug de page blanche lors de la mise à jour si le
     /tmp est trop petit (attention la correction prend effet à
@@ -748,7 +748,7 @@ Changelog
     configuration des widget sur les widgets spécifique (type sonos,
     koubachi y otro)
 
--   Optimisation des logs (merci @kwizer15)
+-   Optimización de los registros (gracias @kwizer15)
 
 -   Possibilité de choisir le format des logs
 
@@ -766,7 +766,7 @@ Changelog
 -   Ajout d’un "repo" URL (permet d’utiliser URL comme source de plugin)
 
 -   Ajout d’un "repo" Samba (utilisable pour pousser des backups sur un
-    serveur samba et récupérer des plugins)
+    servidor samba y recuperar plugins)
 
 -   Ajout d’un "repo" FTP (utilisable pour pousser des backups sur un
     serveur FTP et récupérer des plugins)
@@ -804,9 +804,9 @@ Changelog
 -   Nettoyage de lib tierce
 
 -   Suppression de responsive voice (fonction dit dans les scénarios qui
-    marchait de moins en moins bien)
+    funcionaba cada vez menos bien)
 
--   Correction de plusieurs faille de sécurité
+-   Se corrigieron varios fallos de seguridad
 
 -   Ajout d’un mode synchrone sur les scénarios (anciennement
     modo rápido)
@@ -846,10 +846,10 @@ Changelog
 -   Ajout d’une page de configuration globale des historiques
     (accessible à partir de la page historique)
 
--   Correction de bugs pour docker
+-   Corrección de los errores para docker
 
 -   Possibilité d’autoriser un utilisateur à se connecter uniquement à
-    partir d’un poste sur le réseau local
+    desde una estación en la red local
 
 -   Refonte de la configuration des widgets (attention il faudra
     sûrement reprendre la configuration de certains widgets)
@@ -883,7 +883,7 @@ Changelog
 -   Possibilité lors d’un appel api à un scénario de passer des tags
     en la url
 
--   Support d’apache
+-   Soporte de apache
 
 -   Optimisation pour docker avec support officiel de docker
 

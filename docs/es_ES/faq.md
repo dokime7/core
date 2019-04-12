@@ -200,8 +200,8 @@ Souvent cela est dû au fait que les équipements sont affectés à un objet
 qui n’est pas le fils ou l’objet lui-même du premier objet sélectionné à
 gauche dans l’arbre (vous pouvez configurer celui-ci dans votre profil).
 
-J’ai l’erreur suivante : SQLSTATE\[HY000\] \[2002\] Can’t connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' 
-====================================================================================================================================
+Tengo el siguiente error: SQLSTATE\[HY000 \]\[2002 \] No se puede conectar al servidor MySQL local a través del socket '/var/run/mysqld/mysqld.sock'
+================================================== ==================================================================================
 
 Cela est dû à MySQL qui s’est arrêté, ce n’est pas normal, les cas
 courants sont :

@@ -743,12 +743,12 @@ Vous verrez alors cette fenêtre :
 A partir de celle-ci, vous avez la possibilité :
 
 -   D’envoyer un template à Jeedom (fichier JSON préalablement
-    récupéré),
+    recuperado),
 
 -   De consulter la liste des scénarios disponibles sur le Market,
 
 -   De créer un template à partir du scénario courant (n’oubliez pas de
-    donner un nom),
+    dar un nombre),
 
 -   De consulter les templates actuellement présents sur votre Jeedom.
 
@@ -756,7 +756,7 @@ Par un clic sur un template, vous obtenez :
 
 ![scenario17](../images/scenario17.JPG)
 
-En haut, vous pouvez :
+En la parte superior, puedes :
 
 -   **Partager** : partager le template sur le Market,
 

@@ -40,13 +40,13 @@ Arriba a la derecha, un par de botones:
 -   **Supprimer** : Supprime le plugin de votre Jeedom. Attention, cela
     También elimina de forma permanente todas las instalaciones de este plugin
 
-En dessous à gauche, on retrouve une zone état avec :
+Abajo a la izquierda, hay una zona estado con :
 
 -   ** ** Estado: muestra el estado del plugin (activo / inactivo)
 
 -   ** ** Versión: la versión del plug-in instalado
 
--   **Action** : Permet d’activer ou désactiver le plugin
+-   **Acción** : Permite activar o desactivar el plugin
 
 -   **Version Jeedom** : Version de Jeedom minimum requise
     para el funcionamiento del plugin
@@ -70,7 +70,7 @@ supplémentaires s’affichent sous les zones citées ci-dessus.
 
 Dependencias :
 
--   **Nom** : généralement sera local
+-   **Nombre** : normalmente será local
 
 -   **Statut** : vous dira si les dépendances sont OK ou KO
 
@@ -83,7 +83,7 @@ Dependencias :
 
 Daemon :
 
--   **Nom** : généralement sera local
+-   ** Nombre** : normalmente será local
 
 -   **Statut** : vous dira si le démon est OK ou KO
 
@@ -92,13 +92,13 @@ Daemon :
 
 -   **(Re)Démarrer** : permet de lancer ou relancer le démon
 
--   **Arrêter** : permet d’arrêter le démon (Uniquement dans le cas où
-    la gestion automatique est désactivée)
+-   **Parar**: permite detener al deamon (solamente en el caso de
+    la gestión automática está desactivada)
 
--   **Gestion automatique** : permet d’activer ou désactiver la gestion
+-   **Gestión automática** : permite de activar o desactivar la gestión
     automatique (ce qui permet à Jeedom de gérer lui même le démon et le
     relancer si besoin. Sauf contre indication, il est conseillé de
-    laisser la gestion automatique active)
+    dejar la gestión automática activa)
 
 -   **Dernier lancement** : date du dernier lancement du démon
 
@@ -112,19 +112,19 @@ Daemon :
 En dessous, on retrouve une zone fonctionnalités. Celle-ci permet de voir
 si le plugin utilise une des fonctions core Jeedom tel que :
 
--   **Interact** : des interactions spécifiques
+-   **Interac** : interacciones específicas
 
--   **Cron** : un cron à la minute
+-   **Cron**: un cron por minuto
 
--   **Cron5** : un cron toutes les 5 minutes
+-   **Cron5** : un cron cada 5 minutos
 
--   **Cron15** : un cron toutes les 15 minutes
+-   **Cron15** : un cron cada 15 minutos
 
--   **Cron30** : un cron toutes les 30 minutes
+-   **Cron30** : un cron cada 30 minutos
 
--   **CronHourly** : un cron toutes les heures
+-   **CronHourly** : un cron cada hora
 
--   **CronDaily** : un cron journalier
+-   **CronDaily** : un cron diario
 
 > **Tip**
 >
@@ -148,22 +148,22 @@ chargement, vous obtiendrez la page.
 > l’administration (Configuration→Mises à jour→Onglet market) afin de
 > retrouver les plugins que vous avez déjà achetés par exemple.
 
-En haut de la fenêtre, vous avez des filtres :
+En la parte superior de la ventana, tienes filtros:
 
 -   **Gratuit/Payant** : permet d’afficher uniquement les gratuits ou
     los de pago.
 
--   **Officiel/Conseillé** : permet d’afficher uniquement les plugins
+-   **Oficial/Aconsejado** : permite mostrar solamente los plugins
     oficiales o recomendados
 
--   **Installé/Non installé** : permet d’afficher uniquement les plugins
+-   **Instalado/No instalado** : permite mostrar solamente los plugins
     instalados o no instalados
 
 -   **Menu déroulant Catégorie** : permet d’afficher uniquement
     algunas categorías de plugins
 
 -   **Rechercher** : permet de rechercher un plugin (dans le nom ou la
-    description de celui-ci)
+    descripción de este)
 
 -   **Nom d’utilisateur** : affiche le nom d’utilisateur utilisé pour la
     connexion au Market ainsi que le statut de la connexion
@@ -177,15 +177,15 @@ celui-ci pour faire apparaître sa fiche. Cette fiche vous donne beaucoup
 d’informations sur le plugin, notamment :
 
 -   S’il est officiel/recommandé ou s’il est obsolète (il faut vraiment
-    éviter d’installer des plugins obsolètes)
+    evitar la instalación de plugins obsoletos)
 
 -   4 acciones :
 
-    -   **Installer stable** : permet d’installer le plugin dans sa
+    -   **Instalar estable** : permite instalar el plugin en su
         versión estable
 
     -   **Installer beta** : permet d’installer le plugin dans sa
-        version beta (seulement pour les betatesteurs)
+        versión beta (solo para probadores beta)
 
     -   **Installer pro** : permet d’installer la version pro (très
         poco utilizado)
