@@ -38,11 +38,11 @@ page). Dans ce tableau, on retrouve :
 -   **Actif** : indique si la tâche est active (peut être lancée
     por Jeedom) o no
 
--   **PID** : indique le process ID actuel
+-   **PID** : indica el proceso ID actual
 
--   **Démon** : si cette case est à "oui" alors la tâche doit toujours
+-   **Deamon** : si esta casilla es "sí", la tarea siempre debe
     être en cours. A côté, vous retrouvez la fréquence du démon, il est
-    conseillé de ne jamais toucher cette valeur et surtout de ne jamais
+    aconsejado de no tocar nunca este valor y sobre todo nunca
     disminuirla
 
 -   **Unique** : si c’est à "oui" alors la tâche se lancera une fois
@@ -57,10 +57,10 @@ page). Dans ce tableau, on retrouve :
 -   **Programmation** : la programmation de la tâche au format CRON
 
 -   **Timeout** : durée maximale de fonctionnement de la tâche. Si la
-    tâche est un démon alors elle sera automatiquement arrêtée et
+    tarea es un deamon por lo que se detendrá automáticamente y
     reiniciado al final del timeout
 
--   **Dernier lancement** : date de dernier lancement de la tâche
+-   **Último lanzamiento** : fecha de lanzamiento de la última tarea
 
 -   **Dernière durée** : dernière durée pour accomplir la tâche (un
     démon sera toujours à 0s, il ne faut pas s’inquiéter d’autres tâches

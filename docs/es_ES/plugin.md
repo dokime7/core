@@ -48,7 +48,7 @@ Abajo a la izquierda, hay una zona estado con :
 
 -   **Acción** : Permite activar o desactivar el plugin
 
--   **Version Jeedom** : Version de Jeedom minimum requise
+-   **Versión Jeedom** : Versión Jeedom mínima requerida
     para el funcionamiento del plugin
 
 -   **Licence** : Indique la licence du plugin qui sera généralement
@@ -74,7 +74,7 @@ Dependencias :
 
 -   **Statut** : vous dira si les dépendances sont OK ou KO
 
--   **Installation** : permettra d’installer ou réinstaller les
+-   **Instalación**: instalará o reinstalará los
     dépendances (si vous ne le faites pas manuellement et qu’elles sont
     KO, Jeedom s’en chargera de lui-même au bout d’un moment)
 
@@ -85,7 +85,7 @@ Daemon :
 
 -   ** Nombre** : normalmente será local
 
--   **Statut** : vous dira si le démon est OK ou KO
+-   **Estado**: le dirá si el deamon es OK o KO
 
 -   **Configuration** : sera OK si tous les critères pour que le démon
     tourne sont réunis ou donnera la cause du blocage

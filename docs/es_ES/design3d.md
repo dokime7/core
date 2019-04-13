@@ -24,7 +24,7 @@ Une fois votre modèle 3D créé il faut l'exporter au format OBJ. Si vous utili
 
 Une fois votre modèle 3D exporté il faut dans Jeedom créer un nouveau design 3D. Pour cela il faut passer en mode édition en cliquant sur le petit crayon à droite, puis ensuite cliquer sur le +, donner un nom à ce nouveau design 3D puis valider.
 
-Jeedom va automatiquement passer sur le nouveau design 3D, il faut repasser en mode édition et cliquer sur les petites roues crantées.
+Jeedom cambiará automáticamente al nuevo diseño 3D, debes volver al modo de edición y hacer clic en las ruedas pequeñas con muescas.
 
 Vous pouvez à partir de cette écran :
 

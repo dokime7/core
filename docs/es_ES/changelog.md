@@ -149,7 +149,7 @@ Changelog
 
 -   Mise à jour des librairies (jquery et highcharts)
 
--   Possibilité d’interdire une commande dans les interactions
+-   Posibilidad de prohibir un comando en las interacciones
     automático
 
 -   Interacciones automáticas mejoradas
@@ -433,7 +433,7 @@ Changelog
             haz clic encima
 
         -   Zone de type binaire : lance une série d’actions lors d’un
-            clic dessus en fonction de l’état d’une commande
+            clic encima dependiendo del estado de un comando.
 
         -   Zone de type widget : affiche un widget au clic ou au survol
             de la zona
@@ -715,7 +715,7 @@ Changelog
 -   Correction d’un bug sur le type de widget demandé pour les designs
     (dashboard au lieu de dplan)
 
--   correction de bug sur le gestionnaire d’événements
+-   corrección de errores en el administrador de eventos
 
 -   passage en aléatoire du backup la nuit (entre 2h10 et 3h59) pour
     éviter les soucis de surcharge du market
@@ -793,7 +793,7 @@ Changelog
     reinicio
 
 -   Possibilité de configurer le niveau de log d’un plugin directement
-    sur la page de configuration de celui-ci
+    en la página de configuración de esta
 
 -   Possibilité de consulter les logs d’un plugin directement sur la
     page de configuration de celui-ci
@@ -844,7 +844,7 @@ Changelog
 -   Ajout d’une icône indiquant si le démon est démarré en debug ou non
 
 -   Ajout d’une page de configuration globale des historiques
-    (accessible à partir de la page historique)
+    (accesible desde la página de historial)
 
 -   Corrección de los errores para docker
 
@@ -900,7 +900,7 @@ Changelog
 -   Suppression de l’indication de batterie sur les widgets
 
 -   Ajout d’une page qui résume le statut de tous les équipements sur
-    batterie
+    batería
 
 -   Refonte du DNS Jeedom, utilisation d’openvpn (et donc du
     plugin openvpn)
@@ -946,11 +946,11 @@ Changelog
 
 -   Ajout d’un système d’administration OS
 
--   Ajout de widgets standards Jeedom
+-   Añadiendo widgets Jeedom estándar
 
 -   Ajout d’un système en beta pour trouver l’IP de Jeedom sur le réseau
     (il faut connecter Jeedom sur le réseau, puis aller sur le market et
-    cliquer sur « Mes Jeedoms » dans votre profil)
+    haz clic en "Mis Jeedoms" en tu perfil)
 
 -   Ajout sur la page des scénarios d’un testeur d’expression
 
@@ -967,7 +967,7 @@ Changelog
     avez plus de 512 Mo de RAM de monter le /tmp en tmpfs (en RAM pour
     plus de rapidité et une diminution de l’usure de la carte SD, je
     recommande une taille de 64mo). Attention lors du redémarrage de
-    Jeedom le cache est vidé il faut donc attendre pour avoir la
+    Jeedom el caché esta vaciado, así que tienes que esperar para obtener el
     remontée de toutes les infos
 
 -   Refonte du système de log (utilisation de monolog) qui permet une
@@ -988,7 +988,7 @@ Changelog
 
 -   Support + optimisation pour php7
 
--   Refonte des menus Jeedom
+-   Rediseño de los menús de Jeedom
 
 -   Suppression de toute la partie gestion réseau : wifi, ip fixe…
     (reviendra sûrement sous forme de plugin). ATTENTION ce n’est pas le
@@ -1043,11 +1043,11 @@ Changelog
 
 -   Ajout d’un système d’administration OS
 
--   Ajout de widgets standards Jeedom
+-   Añadiendo widgets estándares Jeedom
 
--   Ajout d’un système en beta pour trouver l’IP de Jeedom sur le réseau
-    (il faut connecter Jeedom sur le réseau, puis aller sur le market et
-    cliquer sur « Mes Jeedoms » dans votre profil)
+-   Agregando un sistema en beta para encontrar el IP de Jeedom en la red
+    (debe conectar Jeedom en la red, ir al market y
+    haz clic en "Mis Jeedoms" en tu perfil)
 
 -   Adición a la página de escenarios de un probador de expresiones
 

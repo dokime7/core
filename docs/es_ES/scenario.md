@@ -19,7 +19,7 @@ que des fonctions pour les gérer au mieux :
 -   **Voir variables** : Permet de voir les variables, leur valeur ainsi
     que l’endroit où elle sont utilisées. Vous pouvez également y en
     créer une. Les variables sont décrites dans un chapitre de
-    cette page.
+    esta página.
 
 -   **Vue d’ensemble** : Permet d’avoir une vue d’ensemble de tous
     les scénarios. Vous pouvez changer les valeurs **actif**,
@@ -94,7 +94,7 @@ notre scénario :
 -   **Groupe** : Permet d’organiser les scénarios, en les classant dans
     de los grupos.
 
--   **Actif** : Permet d’activer le scénario.
+-   **Activo**: Permite activar el escenario.
 
 -   **Visible** : Permet de rendre visible le scénario.
 
@@ -141,7 +141,7 @@ créé, vous pourrez y ajouter un autre **bloc**ou une**action**.
 Voici les différents types de blocs disponibles :
 
 -   **Si/Alors/Sinon** : Permet de réaliser des actions
-    sous condition(s).
+    bajo condicion(es).
 
 -   **Action** : Permet de lancer des actions simples sans
     ninguna condición.
@@ -153,7 +153,7 @@ Voici les différents types de blocs disponibles :
 -   **Dans** : Permet de lancer une action dans X minute(s) (0 est une
     valeur possible). La particularité est que les actions sont lancées
     en arrière-plan, elles ne bloquent donc pas la suite du scénario.
-    C’est donc un bloc non bloquant.
+    Es por lo tanto un bloque no bloqueante.
 
 -   **A** : Permet de dire à Jeedom de lancer les actions du bloc à une
     heure donnée (sous la forme hhmm). Ce bloc est non bloquant. Ex :
@@ -240,7 +240,7 @@ Log :
   -   level : [debug], [info], [error], [event].
   -   message : Message à écrire dans les logs.
 
-Scénario :
+Escenario :
 -   $scenario->getName(); : Retourne le nom du scénario courant.
 -   $scenario->getGroup(); : Retourne le groupe du scénario.
 -   $scenario->getIsActive(); : Retourne l’état du scénario.
@@ -258,7 +258,7 @@ Scénario :
 -   $scenario->setLog($message); : Ecrit un message dans le log du scénario.
 -   $scenario->persistLog(); : Force l’écriture du log (sinon il est écrit seulement à la fin du scénario). Attention, ceci peut un peu ralentir le scénario.
 
-### Les Actions
+### Las acciones
 
 Les actions ajoutées dans les blocs ont plusieurs options. Dans l’ordre :
 
@@ -266,7 +266,7 @@ Les actions ajoutées dans les blocs ont plusieurs options. Dans l’ordre :
     des autres commandes également sélectionnées.
 
 -   Une case **activée** pour que cette commande soit bien prise en
-    compte dans le scénario.
+    cuenta en el escenario.
 
 -   Une **double-flèche verticale** pour déplacer l’action. Il suffit de
     la glisser/déposer à partir de là.
@@ -319,7 +319,7 @@ Opérateurs de comparaison et liens entre les conditions
 Vous pouvez utiliser n’importe lequel des symboles suivant pour les
 comparaisons dans les conditions :
 
--   == : égal à,
+-   ==: igual a,
 
 -   \> : strictement supérieur à,
 
@@ -344,7 +344,7 @@ suivants :
 
 -   \|| / O / o / OR / or : o,
 
--   \|^ / XOR / xor : ou exclusif.
+-   \|^ / XOR / xor : o exclusivo.
 
 Las etiquetas
 
@@ -392,7 +392,7 @@ pouvez utiliser les tags suivants :
 
 -   #smois# : Nom du mois (ex : Janvier),
 
--   #IP# : IP interne de Jeedom,
+-   #IP# : IP interna de Jeedom,
 
 -   #hostname# : Nom de la machine Jeedom,
 
@@ -509,14 +509,14 @@ Plusieurs fonctions sont disponibles pour les équipements :
     permet de spécifier le format de retour (détails
     [ici](http://php.net/manual/fr/function.date.php)). Un retour de -1
     signifie que la commande est introuvable et -2 que la commande n’est
-    pas de type info
+    no de tipo info
 
 -   valueDate(cmd,[format]) : Renvoie la date de la dernière donnée
     pour la commande donnée en paramètre, le 2ème paramètre optionnel
     permet de spécifier le format de retour (détails
     [ici](http://php.net/manual/fr/function.date.php)). Un retour de -1
     signifie que la commande est introuvable et -2 que la commande n’est
-    pas de type info
+    no de tipo info
 
 -   eqEnable(equipement) : Renvoie l’état de l’équipement. -2 si
     l’équipement est introuvable, 1 si l’équipement est actif et 0 s’il
@@ -553,7 +553,7 @@ exemple :
 
 -   5 days ago : hace 5 días
 
--   Yesterday noon : hier midi
+-   Yesterday noon : ayer mediodía
 
 -   Etc.
 
@@ -567,29 +567,29 @@ ces différentes fonctions :
 | averageBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,2015-01-01 00:00:00,2015-01-15 00:00:00) | Renvoie la moyenne de la commande entre le 1 janvier 2015 et le 15 janvier 2015                         |
 | min(prise,période)                 | Renvoie 0 : la prise a bien été éteinte dans la période              |
 | minBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,2015-01-01 00:00:00,2015-01-15 00:00:00) | Renvoie le minimum de la commande entre le 1 janvier 2015 et le 15 janvier 2015                         |
-| max(prise,période)                 | Renvoie 1 : la prise a bien été allumée dans la période              |
+| max(decisión, período)                 | Renvoie 1 : la prise a bien été allumée dans la période              |
 | maxBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,2015-01-01 00:00:00,2015-01-15 00:00:00) | Renvoie le maximum de la commande entre le 1 janvier 2015 et le 15 janvier 2015                         |
-| duration(prise,1,période)          | Renvoie 60 : la prise était allumée (à 1) pendant 60 minutes dans la période                              |
+| duración (enchufe, 1, período)          | Renvoie 60 : la prise était allumée (à 1) pendant 60 minutes dans la période                              |
 | durationBetween(\#[Salon][Prise][Etat]\#,0,Last Monday,Now)   | Renvoie la durée en minutes pendant laquelle la prise était éteinte depuis lundi dernier.                |
 | statistics(prise,count,période)    | Renvoie 8 : il y a eu 8 remontées d’état dans la période               |
 | tendance(prise,période,0.1)        | Renvoie -1 : tendance à la baisse    |
 | stateDuration(prise)               | Renvoie 600 : la prise est dans son état actuel depuis 600 secondes (10 minutes)                             |
 | lastChangeStateDuration(prise,0)   | Renvoie 600 : la prise s’est éteinte (passage à 0) pour la dernière fois il y a 600 secondes (10 minutes)     |
-| lastChangeStateDuration(prise,1)   | Renvoie 4200 : la prise s’est allumée (passage à 1) pour la dernière fois il y a 4200 secondes (1h10)                               |
+| lastChangeStateDuration(enchufe,1)   | Renvoie 4200 : la prise s’est allumée (passage à 1) pour la dernière fois il y a 4200 secondes (1h10)                               |
 | lastStateDuration(prise,0)         | Renvoie 600 : la prise est éteinte depuis 600 secondes (10 minutes)     |
 | lastStateDuration(prise,1)         | Renvoie 3600 : la prise a été allumée pour la dernière fois pendant 3600 secondes (1h)           |
-| stateChanges(prise,période)        | Renvoie 3 : la prise a changé 3 fois d’état pendant la période            |
+| stateChanges(enchufe,periodo)        | Renvoie 3 : la prise a changé 3 fois d’état pendant la période            |
 | stateChanges(prise,0,période)      | Renvoie 2 : la prise s’est éteinte (passage à 0) deux fois pendant la période                              |
 | stateChanges(prise,1,période)      | Renvoie 1 : la prise s’est allumée (passage à 1) une fois pendant la  période                              |
-| lastBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,Yesterday,Today) | Renvoie la dernière température enregistrée hier.                    |
+| lastBetween(\#[Cuarto de baño][Hidrometría][Humedad]\#,Ayer,Hoy) | Renvoie la dernière température enregistrée hier.                    |
 | variable(plop,10)                  | Renvoie la valeur de la variable plop ou 10 si elle est vide ou n’existe pas                         |
 | scenario(\#[Salle de bain][Lumière][Auto]\#) | Renvoie 1 en cours, 0 si arreté et -1 si desactivé, -2 si le scénario n’existe pas et -3 si l’état n’est pas cohérent                         |
 | lastScenarioExecution(\#[Salle de bain][Lumière][Auto]\#)   | Renvoie 300 si le scénario s’est lancé pour la dernière fois il y a 5 min                                  |
 | collectDate(\#[Salle de bain][Hydrometrie][Humidité]\#)     | Renvoie 2015-01-01 17:45:12          |
-| valueDate(\#[Salle de bain][Hydrometrie][Humidité]\#) | Renvoie 2015-01-01 17:50:12          |
+| valueDate(\#[Salle de bain][Hydrometrie][Humidité]\#) | Devuelve 2015-01-01 17:50:12          |
 | eqEnable(\#[Aucun][Basilique]\#)       | Renvoie -2 si l’équipement est introuvable, 1 si l’équipement est actif et 0 s’il est inactif          |
 | tag(montag,toto)                   | Renvoie la valeur de "montag" si il existe sinon renvoie la valeur "toto"                               |
-| name(eqLogic,\#[Salle de bain][Hydrometrie][Humidité]\#)     | Renvoie Hydrometrie                  |
+| name(eqLogic,\#[Salle de bain][Hydrometrie][Humidité]\#)     | Devuelve Hidrometría                  |
 
 Les fonctions mathématiques
 ---------------------------
@@ -608,7 +608,7 @@ effectuer des conversions ou des calculs :
 
 -   trigger(commande) : Permet de connaître le déclencheur du scénario
     ou de savoir si c’est bien la commande passée en paramètre qui a
-    déclenché le scénario.
+    desencadenó el escenario.
 
 -   triggerValue(commande) : Permet de connaître la valeur du
     déclencheur du scénario.
@@ -651,7 +651,7 @@ Et les exemples pratiques :
 | triggerValue(#[Salle de bain][Hydrometrie][Humidité]#) | 80 si l’hydrométrie de \#\[Salle de bain\]\[Hydrometrie\]\[Humidité\]\# est de 80 %.                         |
 | round(#[Salle de bain][Hydrometrie][Humidité]# / 10) | Renvoie 9 si le pourcentage d’humidité et 85                     |
 | odd(3)                             | Renvoie 1                            |
-| median(15,25,20)                   | Renvoie 20                           |
+| mediano(15,25,20)                   | Devuelve 20                           |
 | time_op(#time#, -90)               | s’il est 16h50, renvoie : 1650 - 0130 = 1520                          |
 | formatTime(1650)                   | Devuelve 16h50                        |
 | floor(130/60)                      | Renvoie 2 (minutes si 130s, ou heures si 130m)                      |
@@ -680,7 +680,7 @@ En plus des commandes domotiques, vous avez accès aux actions suivantes :
     (maximum 2h), le timeout est en seconde(s).
 
 -   **Aller au design** (gotodesign) : Change le design affiché sur tous les
-    navigateurs par le design demandé.
+    navegadores por el diseño solicitado.
 
 -   **Ajouter un log** (log) : Permet de rajouter un message dans les logs.
 
@@ -763,7 +763,7 @@ En la parte superior, puedes :
 -   **Supprimer** : supprimer le template,
 
 -   **Télécharger** : récupérer le template sous forme de fichier JSON
-    pour le renvoyer sur un autre Jeedom par exemple.
+    para enviarlo en otro Jeedom por ejemplo.
 
 En-dessous, vous avez la partie pour appliquer votre template au
 scénario courant.
