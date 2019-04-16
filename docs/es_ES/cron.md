@@ -30,7 +30,7 @@ vivement recommandé de ne jamais modifier d’informations sur cette
 page). Dans ce tableau, on retrouve :
 
 -   **\#** : ID de la tâche, peut être utile pour faire le lien entre un
-    processus qui tourne et ce qu’il fait vraiment
+    proceso que gira y lo que realmente hace
 
 -   **Action** : un bouton pour lancer ou arrêter la tâche en fonction
     de son statut et un bouton pour voir le cron dans le détail (tel que stocké en base)

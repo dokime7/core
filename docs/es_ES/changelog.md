@@ -215,7 +215,7 @@ Changelog
 
 -   Corrección de errores
 
--   Possibilité de désactiver une interaction
+-   Habilidad para desactivar una interacción
 
 -   Ajout d’un éditeur de fichiers (réservé aux
     usuarios experimentados)
@@ -290,7 +290,7 @@ Changelog
 -   Correction de bug sur le niveau de batterie des équipements
 
 -   Ajout de méthode dans le core pour la gestion des commandes mortes
-    (doit être ensuite implémentée dans le plugin)
+    (luego debe ser implementado en el plugin)
 
 -   Possibilité d’historiser des commandes de type texte
 
@@ -558,7 +558,7 @@ Changelog
 -   Jeedom sait gérer plusieurs interactions liées (contextuellement)
     en une. Elles doivent être séparées par un mot clef (par défaut et).
     Exemple : "Combien fait-il dans la chambre et dans le salon ?" ou
-    "Allume la lumière de la cuisine et de la chambre."
+    "Enciende la luz de la cocina y del dormitorio."
 
 -   Le statut des scénarios sur la page d’édition est maintenant mis à
     jour dynamiquement
@@ -796,7 +796,7 @@ Changelog
     en la página de configuración de esta
 
 -   Possibilité de consulter les logs d’un plugin directement sur la
-    page de configuration de celui-ci
+    página de configuración de este
 
 -   Suppression du démarrage en debug des démons, maintenant le niveau
     de logs du démon est le même que celui du plugin
@@ -822,7 +822,7 @@ Changelog
     jeedom
 
 -   Retour de l’action scenario\_return pour faire un retour à une
-    interaction (ou autre) à partir d’un scénario
+    interacción (u otra) desde un escenario
 
 -   Passage en long polling pour la mise à jour de l’interface en temps
     real
