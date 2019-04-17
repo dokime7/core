@@ -703,7 +703,7 @@ network::dnsRun
 
 Devuelve el estado de DNS Jeedom
 
-API JSON Exemples
+API JSON Ejemplos
 =================
 
 Voici un exemple d’utilisation de l’API. Pour l’exemple ci-dessous

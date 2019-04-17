@@ -760,7 +760,7 @@ En la parte superior, puedes :
 
 -   **Partager** : partager le template sur le Market,
 
--   **Supprimer** : supprimer le template,
+-   **Eliminar**: eliminar la plantilla,
 
 -   **Télécharger** : récupérer le template sous forme de fichier JSON
     para enviarlo en otro Jeedom por ejemplo.

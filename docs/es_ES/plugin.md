@@ -191,7 +191,7 @@ d’informations sur le plugin, notamment :
         poco utilizado)
 
     -   **Supprimer** : si le plugin est actuellement installé, ce
-        bouton permet de le supprimer
+        botón permite borrarlo
 
 En dessous, vous retrouvez la description du plugin, la compatibilité
 (si Jeedom détecte une incompatibilité, il vous le signalera), les avis
