@@ -922,7 +922,7 @@ Changelog
     dans les scénarios (attention il faudra peut-être toutes les
     reconfigurer suite à la mise à jour)
 
--   Possibilité de désactiver un bloc dans un scénario
+-   Posibilidad de deshabilitar un bloque en un escenario
 
 -   Ajout pour les développeurs d’un système d’aide tooltips. Il faut
     sur un label mettre la classe « help » et mettre un attribut
